@@ -4,7 +4,10 @@
 @mixin background($property){
   background-color: $property;
 }
-@function numero($num:)
+@function numero($num:100){
+  @return $num*20%;
+}
+
 
 header{
   @include width(200px);
