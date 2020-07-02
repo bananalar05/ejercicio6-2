@@ -1,0 +1,13 @@
+@mixin width($property){
+  width: $property;
+}
+@mixin background($property){
+  background-color: $property;
+}
+@function numero($num:)
+
+header{
+  @include width(200px);
+  @include background(#40e0d0)
+}
+
